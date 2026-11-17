@@ -1,0 +1,24 @@
+# Environment files: keep examples versioned, never commit real local secrets.
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+
+# Node / Vite
+node_modules/
+dist/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Runtime / diagnostics
+*.pid
+*.hprof
